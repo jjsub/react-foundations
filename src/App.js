@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// Higher order Components (replaces Mixins)
+
 let Mixin = InnerComponent => class extends Component {
   constructor() {
     super();
